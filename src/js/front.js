@@ -1,12 +1,13 @@
 //* Function that load scripts from compiled typescript folder
+//* Called by the body element when loaded
 function loadScripts() {
-  console.warn("LOADING SCRIPTS FROM 'scripts/target/*.js'")
-  
-  const directory = 'src-/target/';
+  const files = ['synthesizer'];
+  console.warn("LOADING SCRIPTS FROM 'scripts/target/" + files + ".js")
+
+  const directory = 'src/target/';
   const extension = '.js';
 
-  const files = ['synthesizer'];
-  
+
   for (let file of files) {
     const path = directory + file + extension;
     const script = document.createElement("script");
@@ -14,5 +15,3 @@ function loadScripts() {
     document.body.appendChild(script);
   }
 }
-
-loadScripts();

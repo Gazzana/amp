@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.0px"
+   height="16.0px"
+   viewBox="0 0 16.0 16.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview118"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="10.0625"
+     inkscape:cy="7.90625"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid124" />
+  </sodipodi:namedview>
+  <defs
+     id="defs113" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:2.41077"
+       id="rect185"
+       width="13"
+       height="11"
+       x="1.5"
+       y="2.5"
+       rx="139.27751"
+       ry="1.0957031" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:2.2084"
+       id="rect185-0"
+       width="12"
+       height="10"
+       x="2"
+       y="3"
+       rx="128.56386"
+       ry="0.99609375" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.92782px;font-family:'agave NFM';-inkscape-font-specification:'agave NFM, Normal';fill:#48a9a6;stroke-width:0.278997;fill-opacity:1"
+       x="2.0110846"
+       y="10.229793"
+       id="text728"
+       transform="scale(0.92998091,1.0752909)"><tspan
+         sodipodi:role="line"
+         id="tspan726"
+         x="2.0110846"
+         y="10.229793"
+         style="stroke-width:0.278997;fill:#48a9a6;fill-opacity:1">AMP</tspan></text>
+  </g>
+</svg>

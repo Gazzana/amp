@@ -1,3 +1,6 @@
-function gods() {
-    console.warn("Scripts compiled");
+try {
+    var context = new AudioContext();
+}
+catch (_a) {
+    console.error("ERROR");
 }

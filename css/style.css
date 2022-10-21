@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap');
+
+:root {
+  --background-dark: rgb(28, 33.5, 46);
+  --background: rgb(58, 67, 94);
+  --light-color: rgb(157, 141, 241);
+  --action-color: rgb(72, 169, 166);
+  --background-blue: rgb(36, 84.5, 83);
+  --white: rgb(241, 234, 255);
+}
+
+* {
+  /** Resetting values **/
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--white);
+  font-family: 'Fira Sans', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+
+.sliders {
+  background-color: var();
+}
