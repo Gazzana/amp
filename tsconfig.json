@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "src/target/"
+  },
+  "include": ["src/typescript/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
