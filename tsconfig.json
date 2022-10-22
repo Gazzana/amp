@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "outDir": "src/target/"
+    "outDir": "src/target/",
+    "pretty": true
   },
   "include": ["src/typescript/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]

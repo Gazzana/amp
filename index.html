@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,0,200" />
-
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
-
   <!-- Header -->
   <link rel="stylesheet" href="css/header.css">
-
+  <!-- Buttons -->
+  <link rel="stylesheet" href="css/buttons.css">
+  <script src="src/js/front.js"></script>
   <title>Osmium Amp</title>
 </head>
 
@@ -32,10 +34,11 @@
             <li> tag will be the container for the table.
             <span> will be the part that centers the content inside it
             <a> is the actual clickable part -->
-        <li><span><a href="">About</a></span></li>
-        <li><span><a href="https://github.com/Gazzana/amp" target="_blank"><span class="material-symbols-rounded">code</span></a></span></li>
-        <li><span><a href="">History</a></span></li>
-        <li><span><a href="" class="button">Contact</a></span></li>
+        <li><span><a class="button" href="">About</a></span></li>
+        <li><span><a class="button" href="https://github.com/Gazzana/amp" target="_blank"><span
+                class="material-symbols-rounded">code</span></a></span></li>
+        <li><span><a class="button" href="">History</a></span></li>
+        <li><span><a class="button green" id="start" onload="setupTuner()" onclick="startStream()"><span class="material-symbols-rounded">mic</span></a></span></li>
         <!-- On the line above, remove the class="button" if you don't want the final
             element to be a button -->
       </nav>
@@ -44,22 +47,38 @@
   <!-- End of the header -->
 
   <div class="sliders">
+    <section>
+      <label for="gain">Gain</label>
+      <input type="range" min="0" max="10" value="0" step=".01" id="gain">
+    </section>
 
-    <label for="gain">Gain</label>
-    <input type="range" min="0" max="10" value="0" step=".01" id="gain">
+    <section>
+      <label for="bass">Bass</label>
+      <input type="range" min="-20" max="20" value="0" step=".01" id="bass">
+    </section>
 
-    <label for="bass">Bass</label>
-    <input type="range" min="-20" max="20" value="0" step=".01" id="bass">
+    <section>
+      <label for="mid">Mid</label>
+      <input type="range" min="-20" max="20" value="0" step=".01" id="mid">
+    </section>
 
-    <label for="mid">Mid</label>
-    <input type="range" min="-20" max="20" value="0" step=".01" id="mid">
-
-    <label for="treble">Treble</label>
-    <input type="range" min="-20" max="20" value="0" step=".01" id="treble">
-
+    <section>
+      <label for="treble">Treble</label>
+      <input type="range" min="-20" max="20" value="0" step=".01" id="treble">
+    </section>
 
   </div>
+
+
+
+
+  <label class="switch">
+    <input type="checkbox" id="togBtn">
+    <div class="slider round"></div>
+  </label>
+
+
 </body>
-<script src="src/js/front.js"></script>
+
 
 </html>

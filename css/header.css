@@ -65,6 +65,14 @@ header nav a {
 }
 
 header nav .button {
+  background-color: var(--background-blue);
+  /* This HEX is the color of the button */
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+header nav .green {
   background-color: var(--action-color);
   /* This HEX is the color of the button */
   color: var(--white);

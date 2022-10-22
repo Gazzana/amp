@@ -25,7 +25,14 @@ html {
   /* font-family: 'Ubuntu', sans-serif; */
 }
 
-
 .sliders {
   background-color: var();
+  position: fixed;
+
+}
+
+input {
+  appearance: slider-vertical;
+  width: 5%;
+  height: 100%;
 }
